@@ -1,0 +1,79 @@
+@import '../../global.scss';
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    
+    padding: 0.8rem;
+    
+    background-color: $base-white;
+    
+    font-weight: 500;
+    color: $base-shadow-color
+}
+
+.label {
+    display: flex;
+
+    /* Rounded border */
+    border-radius: 9999px;
+
+    /* Size */
+    height: 32px;
+    width: 64px;
+
+    /* OFF status */
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+
+    /* ON status */
+    background-color: #357edd;
+    border: 1px solid #357edd;
+    /* Push the circle to the right */
+    justify-content: flex-end;
+}
+
+.label__input {
+    /* Hide the input */
+    display: none;
+}
+
+.label__circle {
+    /* Rounded border */
+    border-radius: 9999px;
+
+    /* Size */
+    width: 32px;
+
+    background-color: #FFF;
+
+    /* OFF status */
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+#container-variety {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 0.3rem 1rem;
+    margin: 0 0.3rem ; 
+
+    border-radius: 3px;
+
+    background-color: $base-shadow-color;
+}
+
+a {
+    text-decoration: none;
+    color: $base-white-color;
+}

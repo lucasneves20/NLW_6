@@ -1,0 +1,23 @@
+$base-shadow-color: #1D5F25;
+$base-white-color: #7BFF42;
+$color-gradient: linear-gradient(to right, #a8ff78, #78ffd6);
+$base-white: #ffffee;
+$base-white-transparent: #ffffee65;
+$font-ralewey: 'Raleway', sans-serif;
+$font-normal-weight: 300;
+$font-title-weight: 200;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: $base-white;
+    font-family: $font-ralewey;
+    font-weight: $font-normal-weight;
+}
+
+.Weight-300 { 
+    font-weight: 300;
+}

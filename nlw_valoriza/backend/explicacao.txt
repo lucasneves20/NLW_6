@@ -1,0 +1,20 @@
+O que é entity?
+    Entity é a representação do banco de dados dentro do JS
+
+O que é Repository(dentro do framework)?
+    Seria a forma que o typeorm usa para poder acessar os dados 
+    que o entity representa, no caso o banco de dados
+
+OBS: ele que faz a comunicação como insert, delete e alteration
+
+O que é o service? 
+    Service é onde todo os tratamentos de dados ocorrerá, vai ser no services
+    que retornará alguma mensagem ao client caso necessite por exemplo
+
+O que é controller?
+    seria o papel do javascript, ele que vai ler a requisição e chamar
+    o service para assim poder efetuar todas as conexões necessárias
+
+O que é middleware?
+    è o interconector de request que fica a cada request
+    adicionando ou filtrando informação

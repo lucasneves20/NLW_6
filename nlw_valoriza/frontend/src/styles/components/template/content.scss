@@ -1,0 +1,35 @@
+@import "../../global.scss";
+
+.container-content {
+    margin: 4rem;
+    padding: 2rem;
+    
+    border: solid 3px #1D5F2520;
+    border-radius: 10px;
+
+    background-color: $base-white-transparent;
+    backdrop-filter: blur(5px);
+
+    flex: 1;
+    position: relative;
+}
+
+.container-diagonal {
+    /* Absolute position */
+    left: 2.5%;
+    position: absolute;
+    top: 20%;
+
+    /* Take full size */
+    height: 50%;
+    width: 95%;
+
+    /* Create diagonal sides */
+    transform: skewY(-5deg);
+
+    /* Background color */
+    background: linear-gradient(to right, #a8ff78, #78ffd6);
+
+    /* Displayed under the main content */
+    z-index: -1;
+}
